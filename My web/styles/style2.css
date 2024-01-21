@@ -1,0 +1,9 @@
+p{
+    color: green;
+    width: 500px;
+    border: 1px solidblack;
+}
+h1,.special{
+    color: blue;
+    background-color: aquamarine;
+}

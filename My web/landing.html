@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Appointment</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 80px;
+            background: linear-gradient(45deg, #00b894, #bd1414);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h2 {
+            color: white;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header ul li {
+            margin-left: 20px;
+        }
+
+        .header ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .header ul li a:hover {
+            color: #00b894;
+        }
+
+        .body {
+            width: 80%;
+            margin: 120px auto;
+            text-align: center;
+            color: #333;
+        }
+
+        .body h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #bd1414;
+        }
+
+        .body button {
+            background-color: #bd1414;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .body button:hover {
+            background-color: #8c0e0e;
+        }
+
+        .footer {
+            width: 100%;
+            background: #00b894;
+            color: white;
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer .a, .b, .c {
+            width: 30%;
+            text-align: left;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .footer ul li:hover {
+            color: #55efc4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Patient Appointment</h2>
+        <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="PatientAppointment.html">Login</a></li>
+            <li><a href="#">Appointment</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div class="body">
+        <h2>Working together for your health and wellness</h2>
+        <button type="submit">Apply Appointment</button>
+    </div>
+    <div class="footer">
+        <div class="a">
+            <ul>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+            </ul>
+        </div>
+        <div class="b">
+            <ul>
+                <li>Services</li>
+                <li>Weekly Schedule</li>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+            </ul>
+        </div>
+        <div class="c">
+            <ul>
+                <li>Social Media</li>
+                <li>Documentaries</li>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+                <li>Hospitals</li>
+                <li>Doctors</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
